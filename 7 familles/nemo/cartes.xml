@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<pandocreon:carta-genius>
+        <info author="Thomas Mortagne" title="7 Familles Disney Julie" version="1.0"/>
+	<back side="height"/>
+	<images>
+		<image id="fond"   file="../../../dos julie clochette.png" width="55.16mm" height="84.24mm"/>
+
+                <image id="carte1" file="1_nemo.png" width="55.16mm" height="84.24mm"/>
+                <image id="carte2" file="2_dory.png" width="55.16mm" height="84.24mm"/>
+                <image id="carte3" file="3_amiral.png" width="55.16mm" height="84.24mm"/>
+                <image id="carte4" file="4_squiz.png" width="55.16mm" height="84.24mm"/>
+                <image id="carte5" file="5_bruce.png" width="55.16mm" height="84.24mm"/>
+                <image id="carte6" file="6_gill.png" width="55.16mm" height="84.24mm"/>
+	</images>
+	<templates>
+		<template id="fond">
+                    <image id="fond"   x="0mm" y="0mm" entire="yes" />
+                </template>
+
+		<template id="carte1">
+                    <image id="carte1" x="0mm" y="0mm" entire="yes" />
+                </template>
+		<template id="carte2">
+                    <image id="carte2" x="0mm" y="0mm" entire="yes" />
+                </template>
+		<template id="carte3">
+                    <image id="carte3" x="0mm" y="0mm" entire="yes" />
+                </template>
+		<template id="carte4">
+                    <image id="carte4" x="0mm" y="0mm" entire="yes" />
+                </template>
+		<template id="carte5">
+                    <image id="carte5" x="0mm" y="0mm" entire="yes" />
+                </template>
+		<template id="carte6">
+                    <image id="carte6" x="0mm" y="0mm" entire="yes" />
+                </template>
+	</templates>
+	<deck>
+		<paper type="A4" landscape="YES" margin="5mm"/>
+		<cardsize width="55.16mm" height="84.24mm" space="5mm"/>
+
+                <card back="fond" template="carte1"></card>
+                <card back="fond" template="carte2"></card>
+                <card back="fond" template="carte3"></card>
+                <card back="fond" template="carte4"></card>
+                <card back="fond" template="carte5"></card>
+                <card back="fond" template="carte6"></card>
+	</deck>
+</pandocreon:carta-genius>
